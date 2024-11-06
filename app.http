@@ -1,0 +1,21 @@
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "year": 2022,
+  "standard_dev_temp_dec_jan_feb": 1.52,
+  "standard_dev_temp_jun_jul_aug": 0.87,
+  "standard_dev_temp_mar_apr_may": 1.47,
+  "standard_dev_temp_meteorological_year": 1.31,
+  "standard_dev_temp_sept_oct_nov": 1.29,
+  "change_temp_dec_jan_feb": -0.25,
+  "change_temp_jun_jul_aug": -0.96,
+  "change_temp_mar_apr_may": 1.74,
+  "change_temp_meteorological_year": 0.07,
+  "change_temp_sept_oct_nov": -0.42,
+  "avg_exchange_rate": 1.32,
+  "yield_cereals_primary": 1.11,
+  "yield_citrus_fruit_total": 2.12,
+  ...
+  "country": "Nigeria"  // Replace with the desired country
+}
